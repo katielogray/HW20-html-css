@@ -1,0 +1,549 @@
+
+.nav {
+  background-color: rgb(252, 243, 166);
+  list-style-type: none;
+  margin: 0 auto; 
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav li {
+  display: inline-block;
+  text-align: right; 
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  }
+  .nav-link {
+    color:rgb(0, 0, 0);
+  }
+.navmarg {
+  margin-right: 150px;
+}
+
+.logo {
+  padding: 0px;
+  margin-left: 150px;  
+}
+
+.active {
+  background-color: rgb(235, 166, 252);
+}
+.blueFont {
+  color:rgb(53, 128, 189);
+}
+
+.yellowFont {
+  color:rgb(226, 197, 65);
+}
+.pinkFont {
+  color: rgb(230, 96, 140);
+}
+
+.welcome {
+  text-align: center;
+}
+
+h1 {
+  color:#585858;
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.plantH1 {
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  padding: 20px;
+}
+
+h2 {
+  color:#585858;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+ 
+}
+.row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h4 {
+  padding-top: 20px;
+}
+
+ul.b {
+  list-style-type: square;
+  background-color: #ffffff;
+}
+
+.title {
+  text-align: center;
+  color:#e49f38;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  padding: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.halfGrid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 20px;
+margin: 10px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(252, 243, 166);
+}
+
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #6bac65;
+  color:#585858;
+}
+
+.active {
+  background-color: #e49f38;
+}
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdcb7f;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+ }
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mainBody {
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.footer {
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}  
+
+
+.img { 
+  position:relative;
+  max-width: 100%;
+  height: auto;
+     
+}
+
+ 
+.button {
+  border: none;
+  color: rgb(37, 47, 54);
+  background-color: #9eddf1;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+  border-radius: 20px;
+}
+
+.button1 {
+  border: 2px solid #94c9f5;
+  color: rgb(37, 47, 54);
+  background-color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+  border-radius: 20px;
+ 
+}
+
+.imgShadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projectCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.projectCard:hover {
+  border-color: #79c761; 
+  transform: scale(1.1);
+}
+
+.imgPadding {
+  padding: 2%;
+  margin: 3%;
+  width: 75%;
+}
+
+.bloomColor {
+  color:rgb(77, 148, 60);
+}
+.angelColor {
+  color:rgb(235, 102, 120);
+}
+
+.dreamColor{
+  color:rgb(171, 92, 196);
+}
+
+.button:hover {
+  background-color:#f294f5;
+}
+
+.button1:hover {
+  background-color:#94daf5;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+.userResearch {
+  width: 33%;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.uiDesign {
+  width: 33%;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.webDevelopment {
+  width: 33%;
+  margin: 10px;
+  padding: 10px;
+  text-align:center;
+  
+}
+
+.miniHeaders {
+  color:rgb(64, 75, 173);
+}
+
+.myWork {
+  display: grid;
+}
+
+
+.animatedButton {
+  transition: all 0.3s ease; /* Define the transition property */
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+  
+  .flexContainer {
+    flex-direction: column;
+  }
+
+  .userResearch {
+    width: 70%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    }
+  
+  .uiDesign {
+    width: 70%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .webDevelopment {
+    width: 70%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .userResearch img {
+    grid-area: image; 
+    margin: 0 auto;
+}
+
+  .uiDesign img {
+    grid-area: image; 
+    margin: 0 auto;
+}
+
+  .webDevelopment img {
+      grid-area: image; 
+      margin: 0 auto;
+  }
+
+  .projectCard {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "image"
+      "info";
+    align-items: center; 
+  }
+
+  .projectCard img {
+    grid-area: image; 
+    margin: 0 auto;
+  }
+
+  .projectCard .projectInfo {
+    grid-area: info; 
+    text-align: center;
+    }
+  
+.button1 {
+  display: block;
+  margin: 0 auto;
+  
+}
+
+  .mainBody {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  
+  .footer {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .logo {
+    margin-left: 50px;
+ }
+ 
+ .navmarg {
+    margin-right: 50px;
+  }
+
+  .halfGrid {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "image"
+      "info";
+    align-items: center; 
+  }
+
+
+  .halfGrid img {
+    grid-area: image; 
+    margin: 0 auto;
+  }
+
+  .halfGrid .halfGridInfo {
+    grid-area: info; 
+    text-align: center;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  .flexContainer {
+    flex-direction: column;
+  }
+
+  .userResearch {
+    width: 90%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    }
+  
+  .uiDesign {
+    width: 90%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .webDevelopment {
+    width: 90%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .userResearch img {
+    grid-area: image; 
+    margin: 0 auto;
+}
+
+  .uiDesign img {
+    grid-area: image; 
+    margin: 0 auto;
+}
+
+  .webDevelopment img {
+      grid-area: image; 
+      margin: 0 auto;
+  }
+
+  .projectCard {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "image"
+      "info";
+    align-items: center; 
+  }
+
+  .projectCard img {
+    grid-area: image; 
+    margin: 0 auto;
+  }
+
+  .projectCard .projectInfo {
+    grid-area: info; 
+    text-align: center;
+    }
+  
+  body {
+    font-size: 14px;
+    }
+
+p {
+  font-size: 16px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.navmarg ul {
+    flex-direction: column;
+}
+
+.button {
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+.button1 {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+h2{
+  font-size: 18px;
+  text-align: center;
+}
+
+.title{
+  font-size: 24px;
+}
+
+
+
+  
+
+  .mainBody {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .footer {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .logo {
+    margin-left: 20px;
+ }
+ 
+ .navmarg {
+    margin-right: 20px;
+  }
+
+  .halfGrid {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "image"
+      "info";
+    align-items: center; 
+  }
+
+
+  .halfGrid img {
+    grid-area: image; 
+    margin: 0 auto;
+  }
+
+  .halfGrid .halfGridInfo {
+    grid-area: info; 
+    text-align: center;
+    }
+
+}
+
+
